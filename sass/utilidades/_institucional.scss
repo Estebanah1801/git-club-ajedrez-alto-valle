@@ -1,0 +1,17 @@
+section{
+        .institucional-autoridades { 
+            div{
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                img{
+                    width: 50%;
+                    margin-left: 25%;
+                }
+                p{
+                    text-align: center;
+                    font-size:xx-large
+                }
+            }
+}
+}

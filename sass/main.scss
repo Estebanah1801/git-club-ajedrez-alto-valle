@@ -1,0 +1,134 @@
+@import "utilidades/mixin";
+
+*{
+    @include medidas (0,0);
+    box-sizing: border-box;
+}
+
+/*estilos del HEADER*/
+
+    header {
+        font-family: "Ubuntu", sans-serif;
+    section {
+        display: flex;
+        background-color: #F3B351;
+        align-items: center;
+        h1{
+            font-size: 200%;
+        }
+
+    }
+    
+    img {
+        width: 20%;
+        object-fit: contain;
+    }
+    nav{
+        background-color: #0063BE;
+        border-top: solid black 6px;
+        border-bottom: solid black 6px;
+        div{
+            ul{
+                font-size: 250%;  
+                width: 100%;
+                li{
+                    a.a-estilo{
+                        color: whitesmoke;
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+    }
+}
+main{
+    font-family: "Ubuntu", sans-serif;
+    background-color: #FFFFFF;
+    font-size: 20px;
+    h2{
+        font-size: 50px;
+        margin: 20px;
+    }
+
+
+@import "utilidades/inicio";
+
+@import "utilidades/institucional";
+
+@import "utilidades/clases";
+
+@import "utilidades/torneos";
+
+@import "utilidades/contactos";
+
+main{
+    div{
+        ul{
+            list-style: none;
+            font-size: 30px;
+        }
+    }
+}
+}
+
+/*FOOTER*/
+footer{
+    font-family: "Ubuntu", sans-serif;
+    background-color: #00993A;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    p{
+        margin: 30px;
+    }
+    ul{
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        li{
+            .facebook{
+                a{
+                    img{
+                        width: 9%;
+                    }
+                }
+            }
+            .instagram{
+                a{
+                    img{
+                        width: 20%;
+                        margin-right: 40%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-widt: 1024px) {
+    
+        header{
+        section{
+            h1{
+                font-size: 400%;
+            }
+        }
+    }
+    main{
+        font-size: 40px;
+            h2{
+                font-size: 70px;
+            }
+            h3{
+                font-size: 50px;
+            }
+        }
+    }
+    footer{
+        font-size: 70px;
+    }
+
+
+
+
